@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'okapi'
 
 describe Okapi do
   class TestClass
