@@ -3,7 +3,6 @@ require 'okapi'
 
 describe Okapi do
   class TestClass
-    attr_accessor :username
     attr_hider :password
 
     def initialize(username, password)
