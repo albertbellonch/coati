@@ -1,10 +1,10 @@
-Okapi
+Coati
 ======
 
 Description
 -----------
 
-Okapi hides user-defined instance variables from being show when inspecting an instance of the class.
+Coati hides user-defined instance variables from being show when inspecting an instance of the class.
 
 Imagine you have a simple class like:
 
@@ -22,21 +22,21 @@ Then when you inspect the instance of the class, the output will be something li
 
 ...even if we don't want the password value to be shown. This gem addresses this problem.
 
-This gem is named after [an African mammal](https://en.wikipedia.org/wiki/Okapi).
+This gem is named after [an American mammal](https://en.wikipedia.org/wiki/Coati).
 
 Installation
 ------------
 
 Simply do
 
-    gem install okapi
+    gem install coati
 
 Usage
 ------------
 
 Firstly require it from the file:
 
-    require 'okapi'
+    require 'coati'
 
 Then use the `attr_hider` method in the class:
 

@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'okapi'
+require 'coati'
 
-describe Okapi do
+describe Coati do
   class TestClass
     attr_hider :password
 

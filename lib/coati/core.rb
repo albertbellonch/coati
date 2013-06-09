@@ -1,4 +1,4 @@
-module Okapi
+module Coati
   module ClassMethods
     def attr_hider(*attrs)
       define_method :attrs_to_hide do
@@ -22,5 +22,5 @@ module Okapi
   end
 end
 
-Object.extend Okapi::ClassMethods
-Object.send(:include, Okapi::InstanceMethods)
+Object.extend Coati::ClassMethods
+Object.send(:include, Coati::InstanceMethods)
